@@ -1,0 +1,31 @@
+{
+  "name": "libra-lite",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "^5.4.0",
+    "axios": "^1.16.1",
+    "bootstrap": "^5.3.8",
+    "lucide-react": "^1.16.0",
+    "json-server": "^1.0.0-beta.15",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-hook-form": "^7.76.1",
+    "react-router-dom": "^6.30.3",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.1.0",
+    "zod": "^4.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "server": "json-server db.json --port 3001"
+  },
+  "eslintConfig": {
+    "extends": ["react-app"]
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}

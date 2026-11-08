@@ -1,0 +1,24 @@
+body { background: #f8f9fa; }
+.book-cover { height: 220px; object-fit: cover; }
+.detail-cover { width: 100%; max-height: 420px; object-fit: cover; }
+.book-card { transition: transform .15s, box-shadow .15s; }
+.book-card:hover { transform: translateY(-3px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.15); }
+
+/* ---------- Khung trang ---------- */
+.app-shell { min-height: 100vh; display: flex; flex-direction: column; }
+.app-shell > main { flex: 1; }
+
+/* ---------- Navbar & Footer ---------- */
+.app-navbar { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #312e81 100%); }
+.app-navbar .navbar-brand { font-family: 'Playfair Display', serif, serif; font-size: 1.6rem; }
+.app-navbar .nav-link { color: #c7d2fe; }
+.app-navbar .nav-link:hover, .app-navbar .nav-link.active { color: #fff; }
+.app-navbar .nav-link.active { border-bottom: 2px solid #818cf8; }
+
+.app-footer { background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 40%, #312e81 100%); color: #94a3b8; }
+.app-footer h5 { color: #e2e8f0; font-weight: 700; }
+.app-footer a { color: #a5b4fc; text-decoration: none; }
+.app-footer a:hover { color: #fff; }
+
+.logo-icon { background: linear-gradient(135deg, #6366f1, #8b5cf6, #a78bfa); padding: 6px 8px; border-radius: 10px; display: inline-flex; color: #fff; box-shadow: 0 2px 12px rgba(99,102,241,.4); }
+.app-navbar .nav-link { display: flex; align-items: center; gap: 6px; }
